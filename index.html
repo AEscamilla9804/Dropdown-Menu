@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <nav class="nav-container">
+            
+            <h1 class="nav-title">AEscamilla</h1>
+
+            <a href="#menu" class="nav-menu">
+                <img src="./assets/menu.svg" class="nav-icon" alt="Menu">
+            </a>
+
+            <a href="#" class="nav-menu nav-menu-second">
+                <img src="./assets/close.svg" class="nav-icon" alt="Menu">
+            </a>
+
+            <ul class="dropdown" id="menu">
+                <li class="dropdown-list">
+                    <a href="#" class="dropdown-link">
+                        <img src="./assets/house.svg" class="dropdown-icon" alt="">
+                        <span class="dropdown-span">Home</span>
+                    </a>
+                </li>
+
+                <li class="dropdown-list">
+                    <a href="#" class="dropdown-link">
+                        <img src="./assets/projects.svg" class="dropdown-icon" alt="">
+                        <span class="dropdown-span">Projects</span>
+                        <img src="./assets/down.svg" class="dropdown-arrow" alt="">
+
+                        <input type="checkbox" class="dropdown-check">
+                    </a>
+
+                    <div class="dropdown-content">
+                        <ul class="dropdown-sub">
+                            <li class="dropdown-li">
+                                <a href="#" class="dropdown-anchor">Project 1</a>
+                            </li>
+                            <li class="dropdown-li">
+                                <a href="#" class="dropdown-anchor">Project 2</a>
+                            </li>
+                            <li class="dropdown-li">
+                                <a href="#" class="dropdown-anchor">Project 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-list">
+                    <a href="#" class="dropdown-link">
+                        <img src="./assets/projects.svg" class="dropdown-icon" alt="">
+                        <span class="dropdown-span">Contact</span>
+                        <img src="./assets/email.svg" class="dropdown-arrow" alt="">
+
+                        <input type="checkbox" class="dropdown-check">
+                    </a>
+
+                    <div class="dropdown-content">
+                        <ul class="dropdown-sub">
+                            <li class="dropdown-li">
+                                <a href="#" class="dropdown-anchor"> Contact 1</a>
+                            </li>
+                            <li class="dropdown-li">
+                                <a href="#" class="dropdown-anchor">Contact 2</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-list">
+                    <a href="#" class="dropdown-link">
+                        <img src="./assets/help.svg" class="dropdown-icon" alt="">
+                        <span class="dropdown-span">Help</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+</body>
+</html>
